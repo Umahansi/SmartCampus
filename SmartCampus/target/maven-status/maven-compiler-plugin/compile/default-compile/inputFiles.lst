@@ -1,0 +1,17 @@
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\SmartCampusApplication.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\exception\SensorUnavailableException.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\resources\DiscoveryResource.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\resources\SensorResource.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\models\Room.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\resources\SensorReadingResource.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\exceptionmapper\RoomNotEmptyExceptionMapper.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\exceptionmapper\LinkedResourceNotFoundExceptionMapper.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\filter\LoggingFilter.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\data\DataStore.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\models\SensorReading.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\exception\LinkedResourceNotFoundException.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\models\Sensor.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\exception\RoomNotEmptyException.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\exceptionmapper\GenericExceptionMapper.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\resources\RoomResource.java
+U:\1_UNIVERSITY\DEGREE (2nd year)\2nd semester\Client server arcthitecture\CW\SmartCampusAPI\SmartCampus\src\main\java\com\mycompany\smartcampus\exceptionmapper\SensorUnavailableExceptionMapper.java
