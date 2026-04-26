@@ -26,9 +26,6 @@ public class RoomNotEmptyExceptionMapper implements ExceptionMapper<RoomNotEmpty
         error.put("error", "Room is not empty");
         error.put("message", exception.getMessage());
 
-        return Response.status(Response.Status.CONFLICT)
-                .entity(error)
-                .type(MediaType.APPLICATION_JSON)
-                .build();
+        return Response.status(Response.Status.CONFLICT).entity(error).type(MediaType.APPLICATION_JSON).build();
     }
 }

@@ -25,10 +25,8 @@ public class SensorUnavailableExceptionMapper implements ExceptionMapper<SensorU
         Map<String, String> error = new HashMap<>();
         error.put("error", "Sensor is unavailable");
         error.put("message", exception.getMessage());
-
-        return Response.status(Response.Status.FORBIDDEN) // 403
-                .entity(error)
-                .type(MediaType.APPLICATION_JSON)
-                .build();
+        
+        // 403
+        return Response.status(Response.Status.FORBIDDEN).entity(error).type(MediaType.APPLICATION_JSON).build();
     }
 }

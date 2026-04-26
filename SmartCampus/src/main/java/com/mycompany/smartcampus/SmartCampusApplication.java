@@ -26,20 +26,16 @@ public class SmartCampusApplication extends Application {
 
         Set<Class<?>> resources = new HashSet<>();
 
-        // RESOURCE
         resources.add(DiscoveryResource.class);
         resources.add(RoomResource.class);
         resources.add(SensorResource.class);
         resources.add(SensorReadingResource.class);
 
-
-        // EXCEPTION MAPPERS
         resources.add(RoomNotEmptyExceptionMapper.class);
         resources.add(LinkedResourceNotFoundExceptionMapper.class);
         resources.add(SensorUnavailableExceptionMapper.class);
         resources.add(GenericExceptionMapper.class);
 
-        // FILTER
         resources.add(LoggingFilter.class);
 
         return resources;

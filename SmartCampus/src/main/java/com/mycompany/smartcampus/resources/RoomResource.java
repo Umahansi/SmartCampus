@@ -71,7 +71,7 @@ public class RoomResource {
             return Response.status(Response.Status.NOT_FOUND).build();
         }
         if (!room.getSensorIds().isEmpty()) {
-            throw new RoomNotEmptyException("Cannot delete room with associated sensors");
+            throw new RoomNotEmptyException("Cannot delete room with linked sensors");
         }
         DataStore.removeRoom(roomId);
         return Response.ok("Room deleted successfully").build();

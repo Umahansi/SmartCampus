@@ -12,9 +12,9 @@ import java.util.UUID;
 
 public class SensorReading {
 
-    private String id;
-    private long timestamp;
-    private double value;
+    private String id; //// Unique reading event ID (UUID recommended)
+    private long timestamp; // Epoch time (ms) when the reading was captured
+    private double value; // The actual metric value recorded by the hardware
 
     public SensorReading(){
         this.id = UUID.randomUUID().toString();

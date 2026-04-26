@@ -23,12 +23,10 @@ public class LinkedResourceNotFoundExceptionMapper implements ExceptionMapper<Li
     @Override
     public Response toResponse(LinkedResourceNotFoundException exception) {
         Map<String, String> error = new HashMap<>();
-        error.put("error", "Linked resource not found");
+        error.put("error", "No Linked resources found");
         error.put("message", exception.getMessage());
-
-        return Response.status(422)
-                .entity(error)
-                .type(MediaType.APPLICATION_JSON)
-                .build();
+        
+        //422 error
+        return Response.status(422).entity(error).type(MediaType.APPLICATION_JSON).build();
     }
 }

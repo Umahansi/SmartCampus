@@ -18,12 +18,8 @@ import javax.ws.rs.ext.Provider;
 public class GenericExceptionMapper implements ExceptionMapper<Throwable> {
     @Override
     public Response toResponse(Throwable exception) {
-        return Response.status(Response.Status.INTERNAL_SERVER_ERROR)//500 internal server error
-                .entity(Json.createObjectBuilder()
-                        .add("error", "Internal Server Error")
-                        .add("message", "An unexpected error occurred")
-                        .build())
-                .type("application/json")
-                .build();
+        //500 internal server error
+        return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity(Json.createObjectBuilder().add("error", "Internal Server Error")
+                .add("message", "An unexpected error occurred").build()).type("application/json").build();
     }
 }
