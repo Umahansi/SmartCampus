@@ -12,7 +12,7 @@ The API follows the principles of REST and using HTTP methods for performing CRU
 To build and run the Smart Campus API project, follow these steps:
 
 ## Clone the repository
-- git clone https://github.com/your-username/SmartCampus.git
+- git clone https://github.com/Umahansi/SmartCampus.git
   
 ### Using NetBeans
 
