@@ -11,19 +11,36 @@ The API follows the principles of REST and using HTTP methods for performing CRU
 
 To build and run the Smart Campus API project, follow these steps:
 
-1. Clone the repository
+## Clone the repository
 - git clone https://github.com/your-username/SmartCampus.git
+  
+### Using NetBeans
 
-2. Navigate to the project directory
+1. Open NetBeans IDE and go to "File" > "Open Project".
+2. Navigate to the project directory and select the `SmartCampus` project.
+3. Right-click on the project in the NetBeans Projects view and select "Clean and Build" to compile the project and create the WAR (Web Archive) file.
+4. After the build is successful, right-click on the project again and select "Run" or press the "F6" key.
+5. NetBeans will start the server (Apache Tomcat) and deploy the application.
+6. Once the application is deployed, you can access the API endpoints using a tool like Postman or cURL.
+
+### Using Command Line
+
+1. Open a terminal or command prompt and navigate to the project's root directory.
 - cd SmartCampus
-
-3. Build the project using Maven
+3. Make sure you have Maven installed on your system. If not, please install Maven first.
+- https://maven.apache.org/download.cgi
+4. Run the following command to build the project:
 - mvn clean install
+4. After the build is successful, navigate to the `target` directory:
+-cd target
+5. Look for the WAR file named `SmartCampus.war` (or similar) in the `target` directory.
 
-4. Deploy the generated WAR file to a servlet container or application server such as Apache Tomcat.
+6. Deploy the WAR file to a servlet container or application server of your choice (Apache Tomcat).
+- For Tomcat, copy the WAR file to the `webapps` directory of your Tomcat installation.
+- Start the Tomcat server if it's not already running. - eg:- `http://localhost:8080/SmartCampus/api/v1`
+  
+7. Once the application is deployed, you can access the API endpoints using a tool like Postman or cURL.
 
-5. Start the server and ensure that the API is accessible at the specified base URL
-- eg:- `http://localhost:8080/SmartCampus/api/v1`
 
 ## API Endpoints
 - `GET /api/v1`: Retrieve API metadata and available resource collections
